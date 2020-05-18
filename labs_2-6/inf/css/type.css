@@ -1,0 +1,154 @@
+@media all{
+	
+body {
+  background:black;
+  overflow:  hidden;
+}
+p{
+	position: fixed;
+	color: #b3b3b0;
+	font-family: Gabriola ;	
+	font-weight: 700;
+	font-style: oblique;
+	font-size: 45px;
+	left: 310px;
+	margin-top: 0px;
+}
+
+ul{
+	position: fixed;
+	margin-top: 260px;
+	left: 270px;
+	padding:0px;
+	list-style-type: none;
+	line-height:70px;
+	
+	font-family: Gabriola ;
+	font-style: oblique;
+	font-size: 35px;
+}
+a{
+	color: #b3b3b0;
+	z-index:1;
+	text-decoration: none;
+}
+li a:hover{
+	color: black;
+	background-color: silver;
+	
+}
+.silver_frame{
+	position: fixed;	
+	left: 230px;
+	margin-top: 200px;
+	height: 400px;
+    width: 240px;
+	z-index:-2;
+}
+.goddesses{
+	 height: 85%;
+     width: 43%;
+     position: absolute;
+	 left: 670px;
+	 bottom: 0px;	
+}
+
+.element1{
+	position: fixed;
+	height: 145px;
+    width: 230px;
+	left: 690px;
+	margin-top: 13px;
+}
+.element2{
+	position: fixed;
+	height: 145px;
+    width: 230px;
+	left: 1130px;
+	margin-top: 60px;
+}
+.element3{
+	position: fixed;
+	height: 145px;
+    width: 230px;
+	left: 510px;
+	margin-top: 310px;
+}
+.element4{
+	position: fixed;
+	height: 145px;
+    width: 230px;
+	left: 1290px;
+	margin-top: 420px;
+}
+
+.smoke{
+	position: fixed;
+	height: 680px;
+    width: 460px;
+	position: absolute;
+	left: 145px;
+	bottom: -50px;
+	z-index:-1;
+}
+.clock{
+	position: fixed;
+	height: 390px;
+    width: 240px;
+	position: absolute;
+	left: 10px;
+	margin-top: -25px;
+	transform: rotate(43deg);
+	z-index:-2;
+}
+
+.arrow{
+	position: fixed;
+	 height: 150px;
+     width: 250;
+     position: absolute;
+	 left: 920px;
+	 margin-top: 337px;
+	 transform: rotate(210deg);	
+}
+
+.sign1{
+	position: fixed;
+	height: 290px;
+    width: 220px;
+	left: 890px;
+	margin-top: 10px;
+}
+.sign2{
+	position: fixed;
+	height: 290px;
+    width: 220px;
+	left: 1190px;
+	margin-top: 90px;
+}
+.sign3{
+	position: fixed;
+	height: 290px;
+    width: 220px;
+	left: 590px;
+	margin-top: 90px;
+}
+
+I{
+	column-count: 3;
+	width: 963px; 
+	position: fixed;
+	left: 520px;
+	margin-top: 500px;
+	column-gap: 30px;
+	line-height:30px;
+	
+	text-align:justify;
+	color: silver;
+	font-family: Gabriola ;	
+	font-style: oblique;
+	font-size: 20px;
+	
+}
+	
+}
